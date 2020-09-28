@@ -1,0 +1,23 @@
+.listContainer{
+    // background-color: #ffa372;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif;
+    
+
+    .empresaContainer{
+        width: 300px;
+        margin: auto;
+    }
+    
+
+    h2 {
+        margin-top: 0px;
+    }
+
+    img {
+        width: 150px;
+        background-color: red;
+    }
+}
