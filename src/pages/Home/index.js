@@ -1,7 +1,7 @@
-import React, {useState} from 'react'; 
+import React from 'react'; 
 import Nav from '../../components/Nav'
 import List from '../../components/List'
-// import { StartupProvider } from './../../context/StartupContext'; 
+import { useLocalStorage } from './../../hooks/useLocalStorage'; 
 
 function Home() {
 
@@ -16,6 +16,8 @@ function Home() {
   //   startUp,
   //   handleInput
   // } 
+
+
   return (
     <>
       <Nav/>
